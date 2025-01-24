@@ -28,7 +28,7 @@ Direct join. The left of the image has two tables, sales and orders_operational 
 
 You can solve this by value distribution.
 
-##1.3. Value Distribution
+## 1.3. Value Distribution
 
 There are two steps to the process:
 
