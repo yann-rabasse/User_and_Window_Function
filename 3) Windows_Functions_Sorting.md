@@ -14,9 +14,8 @@ The gwz_orders_17 table contains all the orders of our customers until “2021-0
 
 We consider an order to be new if it is the first order from a customer. To find the first order of each customer, we need to sort the orders from the oldest date to the most recent date.
 
-1) Use the ROW_NUMBER() function to add a new column called rn (row number) to the gwz_orders_17 table. For each customer, the new column should contain a number that indicates how recent the order was, with 1 being the oldest (or first) order, 2 being the second oldest, etc. You will have to specify which column you want the table to be PARTIONED by for the ROW_NUMBER() function to work. You can check out the documentation here.
+1) Use the ROW_NUMBER() function to add a new column called rn (row number) to the gwz_orders_17 table. For each customer, the new column should contain a number that indicates how recent the order was, with 1 being the oldest (or first) order, 2 being the second oldest, etc. You will have to specify which column you want the table to be PARTIONED by for the ROW_NUMBER() function to work. You can check out the documentation [here](https://cloud.google.com/bigquery/docs/reference/standard-sql/numbering_functions#row_number).
 
-Solution 🔓
 
 <details>
     <summary> <font color="red"><b>Answer</b></font></summary>
@@ -41,8 +40,6 @@ Solution 🔓
 
 
 2) Use the RANK() function to achieve the same thing in another column called rk.
-
-Solution 🔓
 
 <details>
     <summary> <font color="red"><b>Answer</b></font></summary>
@@ -75,7 +72,6 @@ Our goal is to:
 
 Knowing this, which function seems more relevant to you?
 
-Solution 🔓
 
 <details>
     <summary> <font color="red"><b>Answer</b></font></summary>
@@ -134,7 +130,6 @@ Use the WITH AS clause to combine the 2 steps into a single query. Save the resu
 ![03-Window-Functions-Sorting-asset-1-Untitled](https://github.com/user-attachments/assets/c18c7fc5-c8d4-468b-a2c8-11facf4ad91a)
 
 
-Solution 🔓
 
 <details>
     <summary> <font color="red"><b>Answer</b></font></summary>
