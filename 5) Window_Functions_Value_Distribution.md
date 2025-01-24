@@ -289,7 +289,6 @@ But by using value distribution, we can proportionately split the ads cost acros
 
 3) Distribute ads_cost from gwz_campaign_17_date to the gwz_orders_17_percent_turnover table using the percent_turnover_date column. Calculate the ads_margin for each order. Save the results in the gwz_orders_17_ads view.
 
-🎯 Target
 
 <details>
     <summary> <font color="red"><b>Answer</b></font></summary>
